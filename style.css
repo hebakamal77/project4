@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width:100% ;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    
+}
+.img1{
+    width: 130px;
+    height: 40px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-right: 450px;
+    margin-top: 50px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 18px;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.divi{
+    float: right;
+    margin-right:250px;
+    margin-top:-20px;
+    
+}
+i{
+    margin-left: 15px;
+    font-size: 22px;
+}
+.para{
+    float:left;
+    margin-left:1090px;
+    margin-top:-20px;
+}
+.W{
+    font-size: 15px;
+    color: rgba(102, 44, 44, 0.945);
+    margin-top: 9px;
+}
+.img2{
+    width: 1035px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.contains{
+    width: 100%;
+    height: 50vh;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    
+}
+.span1{
+    display: block;
+    width: 100px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: 9px;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+}
+.div1{
+    width: 19%;
+    height: 400px;
+    
+    position: relative;
+}
+.imga{
+    width: 245px;
+    height: 300px;
+}
+.overlay5{
+    position: absolute;
+    top: 20px;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 95%;
+    height: 257px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 3s;
+}
+.div1:hover .overlay5{
+    visibility: visible;
+    opacity: 1;
+}
+.overlay5 i{
+    
+    font-size: 20px;
+    color: rgba(102, 44, 44, 0.945);
+    margin-top: 190px;
+}
+.overlay5 a{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    margin-left: 30px;
+    
+
+}
+.pp{
+    position: absolute;
+    top:320px;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(121, 116, 116);
+}
+h2{
+    font-size: 20px;
+    position: absolute;
+    top: 341px;
+}
+.items{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.dib{
+    width:530px;
+    height: 250px;
+    background-color: rgb(236, 226, 234);
+    position: relative;
+    top: 130px;
+    left:5px;
+}
+.www{
+    position: absolute;
+    top:5px;
+    left: 60px;
+    font-size: 30px;
+}
+.Q{
+    font-size: 50px;
+    color: rgb(51, 19, 19);
+    
+}
+.ppp{
+    position: absolute;
+    top: 55px;
+    left:58px;
+}
+.pppp{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.span2{
+    display: inline-block;
+    width: 55px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(51, 19, 19);
+
+}
+.div3{
+    position: absolute;
+    top: 200px;
+    left:350px;
+}
+.dib1 img{
+    width: 230px;
+    height: 250px;
+    margin-top: 130px;
+    margin-left: 15px;
+}
+.dib2 img{
+    width: 230px;
+    height: 250px;
+    margin-top: 130px;
+    margin-left: 10px;
+    
+}
+.temblet{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0;
+    margin-left: 10%;
+    
+    
+    
+}
+.temblet-i{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid black;
+    height: 110px;
+    
+}
+.temblet-ii{
+    flex: 1;
+    text-align: center;
+    margin-left: 60px;
+}
+.info{
+    position: relative;
+}
+.tit{
+    font-size: 20px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.pra{
+    color: gray;
+    font-size: 15px;
+    position: absolute;
+    top:30px;
+    left: -20px;
+    
+}
+.temblet-icon{
+    background-image: url(images/service-icon.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    margin-left: -40px;
+}
+.temblet-i{
+    text-align: center;
+    margin-left: 60px;
+}
+.icon1{
+    background-position: center 9px;
+    transition: 1s;
+}
+.icon1:hover{
+    background-position: center -86px;
+}
+.icon2{
+    background-position: center -180px;
+    transition: 1s;
+}
+.icon2:hover{
+    background-position: center -273px;
+}
+.icon3{
+    background-position: center -366px;
+    transition: 1s;
+}
+.icon3:hover{
+    background-position: center -455px;
+}
+.icon4{
+    background-position: center -549px;
+    transition: 1s;
+}
+.icon4:hover{
+    background-position: center -639px;
+    
+}
+.icon5{
+    background-position: center -734px;
+    transition: 1s;
+}
+.icon5:hover{
+    background-position: center -826px;
+}
+.span3{
+    width: 1040px;
+    height: 1px;
+    border-radius: 5px;
+    background-color: rgb(53, 52, 52);
+    margin-top: 140px;
+    position: absolute;
+    left: 160px;
+}
+.lll{
+    margin-top: 20px;
+    margin-right: 480px;
+    padding-left: 10px;
+}
+.lll li{
+    font-size: 18px;
+}
+.product{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+}
+.div4{
+    width: 320px;
+    height:450px;
+    margin-left: 30px;
+    
+}
+.yy{
+    width: 320px;
+    height: 350px;
+}
+.diva i{
+    font-size: 20px;
+    color: yellow;
+    margin-left: 0px;
+}
+.diva .t{
+    color: black;
+}
+.vvv{
+    margin-top: 15px;
+}
+.bbb{
+    font-weight: 900;
+}
+.product1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+    justify-content: center;
+}
+
+
